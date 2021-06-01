@@ -52,6 +52,9 @@ class ListFirstDemoWidget extends State<DefaultListFirstDemoWidget> {
               textDirection: TextDirection.ltr
           ),
         ),
+        Container(
+          height: 50,
+        ),
         ListTile(
           trailing: Image.network("https://cms-bucket.ws.126.net/2021/0531/fc06aba1p00qty19e0099c0009c0070c.png?imageView&thumbnail=140y88&quality=85"),
           title: Text(
@@ -66,6 +69,9 @@ class ListFirstDemoWidget extends State<DefaultListFirstDemoWidget> {
               "5月29日晚上9点多，南京市中心新街口区域发生一起男子驾车撞人并持刀捅人的恶性案件。",
               textDirection: TextDirection.ltr
           ),
+        ),
+        Container(
+          height: 50,
         ),
         ListTile(
           leading: Icon(Icons.car_rental),
