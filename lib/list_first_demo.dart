@@ -87,6 +87,60 @@ class ListFirstDemoWidget extends State<DefaultListFirstDemoWidget> {
               "领克02 Hatchback正式上市，新车售价17.68万，同时还有增加驾控套件的版本，价格18.18万，领克02 Hatchback将与领克03+构成运动双子星，满足用户的需求。",
               textDirection: TextDirection.ltr
           ),
+        ),
+        Container(
+          height: 50,
+        ),
+        ListTile(
+          leading: Icon(Icons.car_rental),
+          title: Text(
+              "售17.68万起 领克02 Hatchback正式上市",
+              textDirection: TextDirection.ltr,
+              style: TextStyle(
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold
+              )
+          ),
+          subtitle: Text(
+              "领克02 Hatchback正式上市，新车售价17.68万，同时还有增加驾控套件的版本，价格18.18万，领克02 Hatchback将与领克03+构成运动双子星，满足用户的需求。",
+              textDirection: TextDirection.ltr
+          ),
+        ),
+        Container(
+          height: 50,
+        ),
+        ListTile(
+          leading: Icon(Icons.car_rental),
+          title: Text(
+              "售17.68万起 领克02 Hatchback正式上市",
+              textDirection: TextDirection.ltr,
+              style: TextStyle(
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold
+              )
+          ),
+          subtitle: Text(
+              "领克02 Hatchback正式上市，新车售价17.68万，同时还有增加驾控套件的版本，价格18.18万，领克02 Hatchback将与领克03+构成运动双子星，满足用户的需求。",
+              textDirection: TextDirection.ltr
+          ),
+        ),
+        Container(
+          height: 50,
+        ),
+        ListTile(
+          leading: Icon(Icons.car_rental),
+          title: Text(
+              "售17.68万起 领克02 Hatchback正式上市",
+              textDirection: TextDirection.ltr,
+              style: TextStyle(
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold
+              )
+          ),
+          subtitle: Text(
+              "领克02 Hatchback正式上市，新车售价17.68万，同时还有增加驾控套件的版本，价格18.18万，领克02 Hatchback将与领克03+构成运动双子星，满足用户的需求。",
+              textDirection: TextDirection.ltr
+          ),
         )
       ],
     );
