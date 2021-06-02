@@ -8,6 +8,7 @@ class ContainerListHorizontal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "List Horizontal Testing",
       home: DefaultListHorizontal(),
     );
   }
