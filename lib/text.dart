@@ -53,6 +53,38 @@ class TextTestWidget extends StatelessWidget {
             color: Colors.blueAccent
           ),
           overflow: TextOverflow.ellipsis,
+        ),
+        SizedBox(height: 10),
+        RichText(
+          // 第一层的 text 类似于主信息, 内部定义的 color 会应用到全局
+            text: TextSpan(
+              text: "速冻水饺",
+              style: TextStyle(
+                color: Colors.red
+              ),
+              // children 内的部分属性会根据上层属性改变
+              children: <InlineSpan>[
+                TextSpan(
+                  text: "是将包好的饺子经过",
+                  style: TextStyle(
+                    color: Colors.black
+                  )
+                ),
+                TextSpan(
+                  text: "速冻",
+                  style: TextStyle(
+                    color: Colors.blueAccent,
+                    decoration: TextDecoration.underline
+                  )
+                ),
+                TextSpan(
+                  text: "以达到冷藏，可以随时食用的一种食物。",
+                  style: TextStyle(
+                    color: Colors.black
+                  )
+                )
+              ]
+            ),
         )
       ]
     );
