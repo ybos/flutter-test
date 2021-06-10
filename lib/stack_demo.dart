@@ -54,6 +54,7 @@ class StackDemo extends State<ContainerClass> {
             right: 0
           ),
           // 这里就是未定义的子组件, 会应用 Stack 设定的默认对齐和排序方式
+
           Text(
               "作者本人",
               style: TextStyle(
